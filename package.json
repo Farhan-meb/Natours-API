@@ -1,0 +1,25 @@
+{
+  "name": "4-natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Farhaan Mahbub",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "^2.3.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
